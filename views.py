@@ -94,6 +94,7 @@ class LoginView(APIView):
         email = request.data.get("email")
         password = request.data.get("password")
 
+
         #try:
         #    user = User.objects.get(email=email) # On récupère l'utilisateur par son email(s'il existe)
         #except User.DoesNotExist:
